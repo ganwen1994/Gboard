@@ -1,6 +1,6 @@
 # Gboard 🚀
 
-**基于 V2board 和 Xboard 二次开发的高性能 Go 语言面板。**
+**基于Go 的高性能代理计费面板。**
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)](https://golang.org/)
 [![License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](LICENSE)
@@ -8,7 +8,7 @@
 
 ## 📖 简介 | Introduction
 
-Gboard 是为了解决传统 PHP 面板在高并发和大数据量下的性能瓶颈而生的全新一代管理面板。我们抛弃了臃肿的 WebAPI，采用 **gRPC** 进行高性能通信，实现了节点与面板的秒级同步。
+Gboard 是为了解决传统 PHP 面板在高并发和大数据量下的性能瓶颈而生的全新一代管理面板，同时我们抛弃了臃肿缓慢的 WebAPI，采用 **gRPC** 进行高性能通信，实现了节点与面板的秒级同步。
 
 它不仅继承了 V2board/Xboard 的优秀生态，更引入了 **傻瓜化安装**、**自动环境配置** 以及 **强大的落地路由管理**（WireGuard/Socks/HTTP 出口均衡），是大型机场和追求极致性能用户的最佳选择。
 
