@@ -1,5 +1,11 @@
 ## 📘 Gboard 部署指南
 
+### 💡 核心提示 | Tips
+
+* **数据平滑迁移**：Gboard 完美兼容 **Xboard**、**V2board** 及 **SSPanel-UIM**。您可以通过 Web 页面或 CLI 工具实现一键数据转换。
+* **服务守护**：在常规部署模式下，建议配合 `一键脚本` 使用，以确保进程在崩溃或重启后能自动拉起。
+* **SSL证书**：建议在反向代理步骤中配置 SSL 证书（如 Let's Encrypt），以保证数据传输安全。
+
 > [!TIP]
 > **官方资源**
 > * **官方群组：** [t.me/Gboard_nl](https://www.google.com/search?q=https://t.me/Gboard_nl)
@@ -47,9 +53,3 @@ chmod +x ./gboard
 * **安装完成后**：将宝塔项目配置中的 **“环境变量文件路径”** 指向生成的 `./env` 文件，确保重启后配置生效。
 
 ---
-
-### 💡 核心提示 | Tips
-
-* **数据平滑迁移**：Gboard 完美兼容 **Xboard**、**V2board** 及 **SSPanel-UIM**。您可以通过 Web 页面或 CLI 工具实现一键数据转换。
-* **服务守护**：在常规部署模式下，建议配合 `systemd` 使用，以确保进程在崩溃或重启后能自动拉起。
-* **SSL证书**：建议在反向代理步骤中配置 SSL 证书（如 Let's Encrypt），以保证数据传输安全。
