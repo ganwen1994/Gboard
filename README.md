@@ -1,3 +1,7 @@
+已开发完成，考虑是否发布中，现在国内机场行业是一条不归路。
+
+
+
 ## 📘 Gboard 部署指南
 
 ### 💡 核心提示 | Tips
@@ -6,10 +10,7 @@
 * **服务守护**：在常规部署模式下，建议配合 `一键脚本` 使用，以确保进程在崩溃或重启后能自动拉起。
 * **SSL证书**：建议在反向代理步骤中配置 SSL 证书（如 Let's Encrypt），以保证数据传输安全。
 
-> [!TIP]
-> **官方资源**
-> * **官方群组：** [t.me/Gboard_nl](https://www.google.com/search?q=https://t.me/Gboard_nl)
-> * **官方频道：** [t.me/Gboard_git](https://www.google.com/search?q=https://t.me/Gboard_git)
+
 ---
 
 ### 🚀 快速安装 | Installation
